@@ -20,8 +20,10 @@
 
                     @if ( Auth::user()->type == "admin" )
                     <div class="table">
+                        <div class="table table-responsive">
                         <table class="table" id="membersTable">
                         </table>
+                        </div>
                     </div>
                     @endif
                 </div>
@@ -154,7 +156,7 @@
                         "<tr>" +
                             "<td colspan='4'>" +
                                     "<nav aria-label='Page navigation example'>" +
-                                        "<ul class='pagination justify-content-center row'>" +
+                                        "<ul class='pagination justify-content-center row m-0'>" +
                                             "<li class='page-item disabled'><a class='page-link' style='color:white'>Pages</a></li>"+
                                             buttons +
                                         "</ul>" +
