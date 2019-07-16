@@ -1,0 +1,5 @@
+@media (min-width: 576px) {
+    .br {
+        border-right: 2px solid white;
+    }
+}
